@@ -17,7 +17,7 @@ In this challenge, you will use a data set of artists to build an "influential a
 
 Commit your code regularly and meaningfully. 
 
-## Interview Questions
+## Interview Questions (incomplete)
 ### (please edit this file and write your answer below each question.)
 
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
@@ -32,7 +32,7 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 ## Instructions
 
-### Task 1: Project Set-Up
+### Task 1: Project Set-Up (done)
 
 Follow these steps to set up your project:
 
@@ -44,7 +44,7 @@ NOTE: Tests will run for the JavaScript portion of this challenge only
 5. next type `npm run test` in your terminal
 6. Complete your work making regular commits, once you have all your tests passing and you are ready to submit your work please see canvas for instructions on how to submit
 
-### Testing & Debugging
+### Testing & Debugging (done)
 
 Open a second terminal inside of your project by clicking on the split terminal icon
 ![alt text](assets/split_terminal.png "Split Terminal")
@@ -55,17 +55,15 @@ Inside of your second terminal type `npm start`
 You will be running your tests in one terminal and debugging in the other. As you work on your code you should make use of `console.log` to check your progress and debug.
 ![alt text](assets/tests_debug_terminal_final.png "your terminal should look like this")
 
-### Task 2a:  Minimum Viable Product - Responsive Design
+### Task 2a:  Minimum Viable Product - Responsive Design (done)
 
 *Before you jump in, take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built. During this time, [Review the provided design files](design/). You have been provided all content necessary in the [index.html file](index.html) and basic styling in the [index.css file](css/index.css).*
 
-* [ ] Ensure your website is responsive at 500px such that your styles match the [mobile design file](design/Mobile.png).
+* [x] Ensure your website is responsive at 500px such that your styles match the [mobile design file](design/Mobile.png).
 
-### Task 2b: Minimum Viable Product - JavaScript
+### Task 2b: Minimum Viable Product - JavaScript (done)
 
 Navigate to `index.js` and complete the MVP challenges. Note that you need to scroll past data (or collapse data in VScode) to find the challenges below.
-
-
 
 ## Resources
 
@@ -78,7 +76,7 @@ Navigate to `index.js` and complete the MVP challenges. Note that you need to sc
 🦄 [Sprint Challenge Study Guide](https://www.notion.so/lambdaschool/Unit-1-Sprint-2-Study-Guide-16f656025c8744458addb068e6348101)
 
 
-## Submission format
+## Submission format (done)
 
 Please submit your project via codegrade by following [these instructions](https://www.notion.so/lambdaschool/Submitting-an-assignment-via-Code-Grade-A-Step-by-Step-Walkthrough-07bd65f5f8364e709ecb5064735ce374)
 
