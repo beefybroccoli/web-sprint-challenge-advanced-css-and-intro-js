@@ -303,13 +303,15 @@ console.log(artists === addArtist(artists));
 console.log(Object.getPrototypeOf(artists));
 console.log(Object.getPrototypeOf(new_artists));
 
-// for (let key of Object.keys(new_artists) ){
+// for (let key of Object.getOwnPropertyNames(new_artists) ){
 //   console.log(key + " : " + new_artists[key]);
 // }
 
-// for (let key of Object.keys(artists)){
+// for (let key of Object.getOwnPropertyNames(artists)){
 //   console.log(key + " : " + artists[key]);
 // }
+
+console.log(artists);console.log(new_artists);
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Use lotsOfArt to do the following: 
