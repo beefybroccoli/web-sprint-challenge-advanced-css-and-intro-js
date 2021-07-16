@@ -243,7 +243,7 @@ If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 // Hint - Look up the .split() method
 // "years": "1471 - 1528",
 function get20s(input_array) {
-  return artists
+  return input_array
     .filter(
       element => 
         parseInt(element.years.split(" ")[0]) >=1900 
@@ -290,14 +290,13 @@ Use addArtist to do the following:
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
 function addArtist(input_array) {
-  return [...input_array
+  return [,...input_array
     , {"id" : 20,"name":"Sam Phak","years": "2010 - 2060","genre": "Web Design","nationality": "Thomas","bio": "young the heart, inspire the spirit"}];
-    // , {"id" : 20,"name":"Your Name Here","years": "Your Birth Year - current day","genre": "Web Design","nationality": "Your Nationality Here","bio": "Add 1-2 sentences (or use lorem ipsum)"}];
 }
 
 let new_artists = addArtist(artists);
-console.log("artists.length = " + artists.length);
-console.log("new_artists.length = " + new_artists.length);
+console.log("artists.length = " + artists.length); //artists.length = 20
+console.log("new_artists.length = " + new_artists.length); //new_artists.length = 21
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Use lotsOfArt to do the following: 
