@@ -296,6 +296,20 @@ function addArtist(input_array) {
 let new_artists = addArtist(artists);
 console.log("artists.length = " + artists.length); //artists.length = 20
 console.log("new_artists.length = " + new_artists.length); //new_artists.length = 21
+console.log("typeof(artists) = " + typeof(artists));
+console.log("typeof(addArtist(artists)) = " + typeof(addArtist(artists)));
+console.log(Object.is(artists,addArtist(artists)));
+console.log(artists === addArtist(artists));
+console.log(Object.getPrototypeOf(artists));
+console.log(Object.getPrototypeOf(new_artists));
+
+// for (let key of Object.keys(new_artists) ){
+//   console.log(key + " : " + new_artists[key]);
+// }
+
+// for (let key of Object.keys(artists)){
+//   console.log(key + " : " + artists[key]);
+// }
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Use lotsOfArt to do the following: 
