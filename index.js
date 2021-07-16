@@ -290,7 +290,17 @@ Use addArtist to do the following:
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
 function addArtist(input_array) {
-  return [...input_array, {"id" : 20,"name":"Sam Phak","years": "2010 - 2060","genre": "Web Design","nationality": "Thomas","bio": "young the heart, inspire the spirit"}];
+  // const new_array = [...input_array];
+  input_array.push(  
+    {"id" : 20
+      ,"name":"Sam Phak"
+      ,"years": "2010 - 2060"
+      ,"genre": "Web Design"
+      ,"nationality": "Thomas"
+      ,"bio": "young the heart, inspire the spirit"
+    });
+
+    return input_array;
 }
 
 let new_artists = addArtist(artists);
@@ -311,7 +321,8 @@ console.log(Object.getPrototypeOf(new_artists));
 //   console.log(key + " : " + artists[key]);
 // }
 
-console.log(artists);console.log(new_artists);
+// console.log(artists);
+// console.log(new_artists);
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Use lotsOfArt to do the following: 
