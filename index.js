@@ -254,6 +254,11 @@ function get20s(input_array) {
     );
 }
 
+// "name": "Salvador Dali", "years": "1904 - 1989",
+// "name": "Frida Kahlo", "years": "1907 - 1954",
+
+console.log(get20s(artists)); //return [ 'Salvador Dali', 'Frida Kahlo' ]
+
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Use removeArtist to do the following:
 1. Receive an array
@@ -287,6 +292,7 @@ Example: addArtist(artists) should return the artists array with the above objec
 function addArtist(input_array) {
   return [...input_array
     , {"id" : 20,"name":"Sam Phak","years": "2010 - 2060","genre": "Web Design","nationality": "Thomas","bio": "young the heart, inspire the spirit"}];
+    // , {"id" : 20,"name":"Your Name Here","years": "Your Birth Year - current day","genre": "Web Design","nationality": "Your Nationality Here","bio": "Add 1-2 sentences (or use lorem ipsum)"}];
 }
 
 let new_artists = addArtist(artists);
