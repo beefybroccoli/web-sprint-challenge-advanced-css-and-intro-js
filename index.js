@@ -290,8 +290,7 @@ Use addArtist to do the following:
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
 function addArtist(input_array) {
-  return [,...input_array
-    , {"id" : 20,"name":"Sam Phak","years": "2010 - 2060","genre": "Web Design","nationality": "Thomas","bio": "young the heart, inspire the spirit"}];
+  return [...input_array, {"id" : 20,"name":"Sam Phak","years": "2010 - 2060","genre": "Web Design","nationality": "Thomas","bio": "young the heart, inspire the spirit"}];
 }
 
 let new_artists = addArtist(artists);
