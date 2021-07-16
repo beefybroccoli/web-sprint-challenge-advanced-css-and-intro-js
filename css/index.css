@@ -103,9 +103,11 @@ nav span{
 .title-container div:hover {	
     opacity: 80%;	
 }	
+
 .title-container hr{
     width:80%;
 }
+
 button{
     padding:1% 3%;
     font-size: 1.6rem;
