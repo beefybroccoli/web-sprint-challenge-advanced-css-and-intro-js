@@ -208,17 +208,17 @@ Practice accessing data above by console.log-ing following items:
 (no functions needed) */
 
 //(1) Name of the first artist (0th index) in the array
-// console.log(artists[0]);
+console.log(artists[0]);
 
 //(2) Bio of the third artist (2nd index) in the array 
-// console.log(artists[2]);
+console.log(artists[2]);
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 (no function needed) 
 There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is currently Vincent Van Dough. Use an array method to fix this issue and console.log() to check your work. */
 artists[9].name = "Vincent Van Gogh";
-// console.log(artists[9]);
+console.log(artists[9]);
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀  
@@ -284,8 +284,6 @@ Use addArtist to do the following:
 
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-console.log(artists.length);
-
 function addArtist(input_array) {
   return [...input_array
     , { 
@@ -299,7 +297,9 @@ function addArtist(input_array) {
   ];
 }
 
-console.log(addArtist(artists).length);
+let new_artists = addArtist(artists);
+console.log("artists.length = " + artists.length);
+console.log("new_artists.length = " + new_artists.length);
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Use lotsOfArt to do the following: 
@@ -310,14 +310,11 @@ For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte
 
 function lotsOfArt(input_array) {
   return input_array
-  .filter(element => element.paintings > 100)
-  .map(element => element["name"]);
+    .filter(element => element.paintings > 100)
+    .map(element => element["name"]);
 }
 
-
 /* ***** END OF TASKS ***** */
-
-
 
 /* 🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑*/
 function foo() {
